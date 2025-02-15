@@ -1,0 +1,110 @@
+<!-- Boiler Plate -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 2 Coding Assignment</title>
+        <!-- Link to external CSS file -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <h1>Week 2 Coding Assignment - Kera Lloyd</h1>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Navigation Menu -->
+            <nav>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+            <hr> <!-- Horizontal line to separate navigation -->
+
+            <!-- Section 1: Welcome and Images -->
+            <section>
+                <h2>Welcome to my page that's all about kitties!</h2>
+                <p>Do you like cats? Here are some pictures of some pretty kitties...</p>
+                <img height="200" src="images/orangeKittie.jpg" alt="An orange cat loafing on the floor with its eyes closed.">
+                <img height="200" src="images/scottishFold.jpg" alt="A grey Scottish Fold cat.">
+                <img height="200" src="images/sphynx.jpg" alt="A white sphynx cat looking into the sun.">
+            </section>
+
+            <!-- Section 2: List of Cat Breeds -->
+            <section>
+                <h2>Breeds</h2>
+                <p>Here is a list of some different cat breeds. Which one do you like best?</p>
+                <ol>
+                    <li>American Shorthair</li>
+                    <li>Scottish Fold</li>
+                    <li>Sphynx</li>
+                </ol>
+            </section>
+
+            <!-- Section 3: Table of Cat Info -->
+            <section>
+                <h2>Kitties For Sale</h2>
+                <p>Here is a list of some of our available kitties:</p>
+                <!-- Table containing cat breed, age, and price -->
+                <table>
+                    <tr>
+                        <th>Breed</th>
+                        <th>Age</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Sphynx</td>
+                        <td>2 Years</td>
+                        <td>$1500.00</td>
+                    </tr>
+                    <tr>
+                        <td>American Shorthair</td>
+                        <td>1 Year</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Scottish Fold</td>
+                        <td>3 Years</td>
+                        <td>$1200.00</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Section 4: Form to Select a Kitty -->
+            <section>
+                <h2>Fill out this form to select which kitty you would like to purchase:</h2>
+                <!-- Form to collect user details and kitty selection -->
+                <form>
+                    <input type="text" name="firstName" placeholder="First Name"> <br>
+                    <input type="text" name="lastName" placeholder="Last Name"> <br><br>
+                    <input type="text" name="phoneNumber" placeholder="Phone Number"> <br><br>
+
+                    <h3>Choose your Kitty:</h3>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="kitty" value="Sphynx"> Sphynx
+                        </label>
+                        <label>
+                            <input type="radio" name="kitty" value="Persian"> Persian
+                        </label>
+                        <label>
+                            <input type="radio" name="kitty" value="Scottish-Fold"> Scottish Fold
+                        </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <!--Footer-->
+            <footer>
+                <p>&copy; 2025 Thanks for visiting my website! <span class="heart">❤️</span></p>
+            </footer>
+        </main>
+    </body>
+</html>

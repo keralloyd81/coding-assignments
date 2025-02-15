@@ -1,0 +1,156 @@
+/* Main Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font style for all body text */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #dddada; /* Light grey background */
+    color: #0a0a0a; /* Dark text color for all body text */
+}
+
+/* Header Styling */
+header {
+    background-color: #ffcccb; /* Pink background for Valentines Day-Change for holidays */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #9e3004; /* Dark Red background */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Navigation Links */
+nav a {
+    color: white; /* White text for distinct contrast */
+    text-decoration: none;  /*Removes the link underline */
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+/* Navigation Hover Effect */
+nav a:hover {
+    background-color: #ff6347; /* Darker orange on hover */
+    border-radius: 5px; /* Rounded corners on hover box */
+}
+
+/* Sections Styling */
+section {
+    margin: 20px;
+    padding: 20px; /*Padding around the text inside the section*/
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+}
+img {
+    border-radius: 10px; /*Adds a border radius to the images*/
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);  /*Adds shadow effect */
+    padding: 1px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;  /*Removes double borders */
+    margin-top: 10px;
+}
+
+/* Table Header and Data Cells */
+th, td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Table Header */
+th {
+    background-color: #ffcccb; /* Pink header background - matches top header */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column; /* Stacks input fields vertically */
+    width: 300px;
+}
+
+/* Input Fields */
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded edges */
+}
+
+/* Submit Button on index.html */
+input[type="submit"] {
+    background-color: #9e3004; /* Dark red submit button - matches nav bar */
+    color: white;
+    font-size: medium;
+    cursor: pointer; /* Shows pointer cursor */
+}
+
+/* Submit Button Hover Effect */
+input[type="submit"]:hover {
+    background-color: #ff6347; /* Darker orange on hover - matches nav hover*/
+}
+
+/* Submit Button on contact.html */
+button {
+    background-color: #9e3004; /* Dark red button - matches nav bar */
+    color: white;
+    font-size: medium;
+    cursor: pointer; /* Shows pointer cursor */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Adds padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Submit Button Hover Effect */
+button:hover {
+    background-color: #ff6347; /* Darker orange on hover - matches nav hover */
+}
+
+/*styling for footer*/
+footer p {
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1; /* Light grey background */
+}
+
+/* Styles for aligning radio buttons and text */
+.radio-group {
+    display: flex;
+    flex-direction: column; /* Stacks radio options vertically */
+    gap: 10px; /* Adds spacing between each radio button */
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center; /* Aligns text with radio button */
+    gap: 8px; /* Space between radio button and text */
+    cursor: pointer; /* Makes the whole label clickable */
+}
+
+/*Styling for heart on footer*/
+.heart {
+    color: #9e3004;
+    font-size: 1.3em;
+}
+
+/* Responsive Design: Adjusts layout for smaller screens */
+@media screen and (max-width: 600px) {
+    nav div {
+        display: flex;
+        flex-direction: column; /* Stacks nav links vertically so they are always seen */
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}

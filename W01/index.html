@@ -1,0 +1,114 @@
+<!--Instructions: 
+Coding Steps:
+*Step 1: Create a website using only HTML. The website can be anything you like (within school guidelines) 
+if it meets the following criteria:
+*Step 2: Create a homepage named index.html
+    *At least 3 pages with links to navigate between all pages present on each page.
+    *2 different size headers, a list, 3 images, a table, and a form.
+Video Steps: 
+*Step 1: Create a video, up to five minutes max, showing and explaining how your project works with an emphasis on the portions you contributed.
+    *This video should be done using screen share and voice over.
+    *This can easily be done using Zoom, although you don't have to use Zoom, it's just what we recommend.
+        *You can create a new meeting, start screen sharing, and start recording.
+        *This will create a video recording on your computer.
+*Step 2: This should then be uploaded to a publicly accessible site, such as YouTube.
+        *Ensure the link you share is PUBLIC or UNLISTED!
+        *If it is not accessible by your grader, your project will be graded based on what they can access.
+-->
+
+<!-- Boiler Plate -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Coding Assignment</title>
+    </head>
+    <body>
+        <header>
+            <h1>Week 1 Coding Assignment-Kera Lloyd</h1>
+        </header>
+        <!--Main-->
+        <main>
+            
+            <!--Navigation-->
+            <nav>
+                <!--I chose to use a div rather than a list here in order to keep the navigation inline.-->
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+            <!--I decided to put in a horizonal line to separate the naviation from the rest of the page.-->
+            <hr>
+            <!--Section 1 Welcome and images. 
+                I chose to use section elements throughout the rest of my page because it will help with SEO and future styling.-->
+            <section>
+                <h2>Welcome to my page that's all about kitties!</h2>
+                <p>Do you like cats? Here are some pictures of some pretty kitties...</p>
+                <img height="200x" src="images/orangeKittie.jpg" alt="An orange cat loafing on the floor with its eyes closed.">
+                <img height="200x" src="images/scottishFold.jpg" alt="A grey Scottish Fold cat.">
+                <img height="200x" src="images/sphynx.jpg" alt="A white sphynx cat looking into the sun.">
+            </section>
+
+            <!--Section 2 List of breeds-->
+            <section>
+                <h2>Breeds</h2>
+                <p>Here is a list of some different cat breeds. Which one do you like best?</p>
+                <ol>
+                    <li>American Shorthair</li>
+                    <li>Scottish Fold</li>
+                    <li>Sphynx</li>
+                </ol>
+            </section>
+
+            <!--Section 3 Table of cat info-->
+            <section>
+                <h2>Kitties For Sale</h2>
+                <p>Here is a list of some of our available kitties:</p>
+                <!--Per the assignment directions, I have created a table with different breeds, their age and price to purchase.-->
+                <table>
+                <tr>
+                    <th>Breed</th>
+                    <th>Age</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Sphynx</td>
+                    <td>2 Year</td>
+                    <td>$1500.00</td>
+                </tr>
+                <tr>
+                    <td>American Shorthair</td>
+                    <td>1 Year</td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>Scottish Fold</td>
+                    <td>3 Years</td>
+                    <td>$1200.00</td>
+                </tr>
+                </table>
+            </section>
+
+            <!--Section 4 Form to fill out to choose what kittie you would like to purchase.-->
+            <section>
+                    <h2>Fill out this form to select which kittie you would like to purchase:</h2>
+                    <!--Per the assignment directions, I have created a form with different breeds to purchase.-->
+                <form>
+                    <input type="text" name="firstName" placeholder="First Name"> <br>
+                    <input type="text" name="lastName" placeholder="Last Name"> <br><br>
+                    <input type="text" name="phoneNumber" placeholder="Phone Number"> <br><br>
+                    <h3>Choose your Kittie:</h3>
+                    <input type="radio" name="kittie" value="Sphynx">Sphynx <br>
+                    <input type="radio" name="kittie" value="Persian">Persian <br>
+                    <input type="radio" name="kittie" value="Scottish-Fold">Scottish Fold <br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+        </main>
+    </body>
+</html>
