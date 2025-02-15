@@ -1,3 +1,8 @@
+/* Validator has been run. This file is valid*/
+/* There are some issues with the form comment boxes not sizing down to stay in the section 
+on the index.html and contact.html pages when the screen is sized down very narrow. 
+The forms still work. */
+
 /* Element Selectors*/
 /* Main Body Styles */
 body {
