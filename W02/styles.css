@@ -1,3 +1,4 @@
+/* Element Selectors*/
 /* Main Body Styles */
 body {
     font-family: Arial, sans-serif; /* Sets the font style for all body text */
@@ -73,7 +74,7 @@ th {
 form {
     display: flex;
     flex-direction: column; /* Stacks input fields vertically */
-    width: 300px;
+    width: 300px; 
 }
 
 /* Input Fields */
@@ -120,7 +121,29 @@ footer p {
     background-color: #f1f1f1; /* Light grey background */
 }
 
-/* Styles for aligning radio buttons and text */
+/*ID Selector Styling*/
+/* Styles for the First Name input */
+#firstName {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Styles for the Last Name input */
+#lastName {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Styles for the Phone Number input */
+#phoneNumber {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Styles for aligning radio buttons and text - these are class selectors */
 .radio-group {
     display: flex;
     flex-direction: column; /* Stacks radio options vertically */
